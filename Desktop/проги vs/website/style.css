@@ -1,0 +1,195 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+/* simple reset css */
+
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.header-container { 
+  display:flex; /* Display: flex — это значит, 
+  что всё содержимое контейнера может гибко менять свои размеры по ширине или высоте, подстраиваясь под содержимое */
+  width: auto;
+  height: 900px;
+  padding-top: 104px;
+  padding-right: 133px;
+  padding-left: 240px;
+  padding-bottom: 168px;
+  background-color: #F8F8F8;
+}
+.header-title {
+  font-size: 24px;
+  line-height: 46px; /* line-height устанавливает величину пространства между строками, например в тексте*/
+  font-weight: 300; /* насыщенность шрифта */
+  margin-bottom: 53px; /* внешний отступ внизу элемента */
+}
+.header-subtitle{
+ line-height: 215px;
+ width: 877px;
+ font-size: 250px;
+ margin-bottom: 43px;
+ left: 133px;
+}
+.header-description{
+  width: 575px;
+  height: 142px;
+  left: 135px;
+  margin-bottom: 61px;
+}
+.buy-wrapper {
+  display: flex; /* чтобы разграничить кнопки */
+}
+.buy-link {
+  display:block; /* Элемент генерирует «коробку» блочного уровня. 
+  Все элементы на этом уровне начинаются с новой строки (вертикально) и, если не указано иное, растягиваются до ширины своего контейнера. 
+  Элементы прилегают вплотную друг к другу, если для них не заданы отступы (margin)*/
+  font-weight: 278px;
+  height: 82px;
+  left:135px;
+  top: 650px;
+  background-color:#161515;
+  color:#FFFFFF;
+  font-size: 32px;
+  text-decoration: none;
+  line-height: 82px; /* line-height устанавливает величину пространства между строками, например в тексте. */
+  text-align: center;
+}
+.price {
+  font-weight: 88px;
+  height: 38px;
+  top:82px;
+  left:82px;
+  color:#161515;
+  background-color:#FFFFFF;
+  font-size: 32px;;
+  text-align: center;
+  line-height: 82px;
+  font-weight: 300;
+}
+.header-img {
+  display:block;
+  width: 410px;
+  margin-top: -130px;
+  margin-left: -90px;
+}
+.popular-title {
+  margin-top: 43px; /* определяет внешний отступ в верхней части элемента */
+  text-align: center;
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 300;
+}
+.modals-title {
+  font-weight: 285px;
+  height: 62px;
+  top: 984px;
+  left: 564px;
+  font-size: 72px;
+  line-height: 81px;
+  text-align: center;
+  font-weight: 300;
+}
+.item-wrapper{
+  margin: 0 auto;
+  width: 417px;
+  margin-bottom: 84px;
+}
+.item-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 417px;
+  height: 630px;
+  background-color: #F8F8F8;
+  margin-bottom: 67px;
+}
+.item-title {
+  font-size: 32px;
+  line-height: 30px;
+  margin-bottom: 17px;
+  text-align: center;
+}
+.item-discription {
+  width: 450px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  top: 1871px;
+  left: 454px;
+}
+
+.heading-wrapper{
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 84px;
+}
+
+.heading-img-wrapper {
+ display: flex;
+ width: 500px;
+ height: 500px;
+ top: 2215px;
+ left: 470px;
+ align-items: center;
+ justify-content: center;
+ background-color: #F8F8F8;
+ margin-bottom: 132px;
+}
+
+.header-heading{
+ margin: 0 auto;
+ width: 66px;
+ height: 30px;
+ font-size: 32px;
+ margin-bottom: 17px;
+}
+
+.header-subheading {
+ width: 510px;
+ height: 196px;
+ top: 2893px;
+ left: 465px;
+ text-align: center;
+ font-weight: 300;
+ font-size: 32px;
+ line-height: 50px;
+}
+
+.product-discription-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 60px;
+  margin-bottom: 58px;
+  font-weight: 400;
+}
+.product-discription {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  width: 515px;
+  height: 231px;
+  line-height: 40px;
+  font-weight: 430;
+
+}
+.product-discription-link{
+  color: orange;
+}
+
